@@ -1,0 +1,133 @@
+.footer{
+    /* border: 0px solid rgba(214, 220, 224, 1);
+    background: rgba(255, 255, 255, 1) */
+    width: 720px;
+   
+    flex-shrink: 0;
+    border-radius: 15px;
+background: #FFF;
+backdrop-filter: blur(37.69718933105469px);
+}
+    
+.footer h4{
+    /* color: rgba(15, 63, 98, 1);
+    font-family: Avenir;
+font-size: 9px;
+    font-size: 10px;
+    padding: 16px;
+    margin: 14px; */
+    color: #0F3F62;
+font-family: Avenir;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 0.32px;
+display: flex;
+justify-content: space-between;
+}
+table{
+   /* width: 100%;
+   height: 200px; */
+   width: 720px;
+}
+td{
+    /* text-align: center;
+    color: rgba(15, 63, 98, 1);
+    font-size: 16px; */
+    color: #0F3F62;
+font-family: Avenir;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+padding-left:45px ;
+
+
+
+
+}
+.rank1{
+    color:rgb(247, 11, 11);
+    
+
+}
+th{
+    /* color: rgba(134, 149, 160, 1);
+    font-family: Avenir;
+font-size: 14px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.02em; */
+color: #0F3F62;
+font-family: Avenir;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+
+
+
+}
+.pit{
+    border-radius: 400px;
+    justify-content: space-between;
+    height: 2px;
+    width: 3px;
+    font-size: 12px;
+    opacity: 33px;
+    margin: 44px;
+    padding-left: 13px;
+}
+.rit{
+    height: 3vmin;
+    
+}
+
+.i,.ic, .ico, .icos{
+ 
+justify-content: center;
+    
+}
+.dot{
+    padding-left: 55px;
+    color: blue;
+    font-size: 44px;
+}
+
+.i{
+    font-size: 30px;
+    color:  rgba(217, 237, 255, 1);
+
+}
+.ic{
+    font-size: 30px;
+    color: rgba(255, 218, 217, 1);
+
+}
+.ico{
+    font-size: 30px;
+    color:rgba(217, 218, 255, 1);
+
+}
+.icos{
+    font-size: 30px;
+    color: rgba(255, 218, 217, 1);
+    
+    
+}
+/* .got{
+  text-align:justify;
+    display: flex;
+    color: red;
+  padding-left: 120px;
+} */
+.bal{
+    padding-left: 33px;
+}
+.ball{
+  padding-right: 5px;
+}
+.pls{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}

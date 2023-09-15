@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import UilReact from '@iconscout/react-unicons/icons/uil-react'
+import './comp.css'
+import Rightbar from './components/rigthside/right';
+import Main from './components/main/main';
+import Liftbar from './components/left/lift';
+import ChatApp from './components/left/chat';
+import Chat from './components/left/chat';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <div className='help'>
+   <Rightbar /> 
+     <Main />
+   <Liftbar />  
+   </div>
+   </>
   );
 }
 
