@@ -6,10 +6,6 @@ import m6 from '../images/m6.svg'
 import Gpp from '../images/Gpp.svg'
 import G3 from '../images/G3.svg'
 import G4 from '../images/G4.svg'
-// import a from './components/images/a.jpg'
-// import c from '../images/c.png'
-// import a from '../images/a.jpg'
-// import d from '../images/d.jpg'
 import { render } from "@testing-library/react";
 import Tablet from "./tab";
 
@@ -35,11 +31,7 @@ const Main = () => {
                     </div>
                 
                     </div>
-                    {/* <div className="d">
                     
-                    <form><input type="text" placeholder="Search Here"></input>
-                    </form>
-                    </div> */}
                     <div className="images">
                     <div className="img">
                     <img src={G4} className="App-logo" alt="logo" />
@@ -57,8 +49,8 @@ const Main = () => {
                     <h3>Skater Boys<h6>The best state of skaters</h6></h3>
                     </div>
                     </div>
-                    <Tablet />
-                    {/* <div className="footer">
+                    
+                     <div className="footer">
                         <h4>Friends Rank</h4>
                         <table>
                             <th>Rank</th>
@@ -90,7 +82,7 @@ const Main = () => {
                                 <td>2,277</td>
                             </tr>
                         </table>
-                    </div> */}
+                    </div> 
 
 
             </div>

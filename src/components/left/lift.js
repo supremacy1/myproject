@@ -43,7 +43,7 @@ setTimeout(() => {
             <h5>14</h5>
             </div>
             <div className="d">
-        <FontAwesomeIcon icon={faCircle} className="icon"/><h4>Ironmen<h6>When will the event be held? </h6></h4>
+        <FontAwesomeIcon icon={faCircle} className="icon"/><h4>Ironmen<h6>When will the play be held? </h6></h4>
         </div><br></br>
         <div className="a">
         <FontAwesomeIcon icon={faCircle} className="icon"/>
